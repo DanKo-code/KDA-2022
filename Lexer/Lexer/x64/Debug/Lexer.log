@@ -1,0 +1,82 @@
+﻿Сборка начата 13.12.2022 12:30:27.
+Уровень детализации журнала: Normal.     1>Проект "C:\2курс, 1 сем\КПО\20\Lexer_2\Lexer\Lexer\Lexer.vcxproj" в узле 2 (целевые объекты Build).
+     1>PrepareForBuild:
+         Создание каталога "C:\2курс, 1 сем\КПО\20\Lexer_2\Lexer\x64\Debug\".
+         Создание каталога "x64\Debug\Lexer.tlog\".
+       InitializeBuildStatus:
+         Создание "x64\Debug\Lexer.tlog\unsuccessfulbuild", так как было задано "AlwaysCreate".
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\bin\HostX86\x64\CL.exe /c /ZI /JMC /nologo /W3 /WX- /diagnostics:column /sdl /Od /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /permissive- /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"x64\Debug\\" /Fd"x64\Debug\vc142.pdb" /external:W3 /Gd /TP /FC /errorReport:prompt Error.cpp FST.cpp GRB.cpp In.cpp IT.cpp LexicalAnalysis.cpp Log.cpp LT.cpp Main.cpp MFST.cpp Out.cpp Parm.cpp
+         Error.cpp
+         FST.cpp
+     1>C:\2курс, 1 сем\КПО\20\Lexer_2\Lexer\Lexer\FST.cpp(74,37): warning C4267: инициализация: преобразование из "size_t" в "short"; возможна потеря данных
+         GRB.cpp
+         In.cpp
+     1>C:\2курс, 1 сем\КПО\20\Lexer_2\Lexer\Lexer\In.cpp(79,29): warning C4267: =: преобразование из "size_t" в "int"; возможна потеря данных
+         IT.cpp
+         LexicalAnalysis.cpp
+     1>C:\2курс, 1 сем\КПО\20\Lexer_2\Lexer\Lexer\LexicalAnalysis.cpp(7,50): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+     1>C:\2курс, 1 сем\КПО\20\Lexer_2\Lexer\Lexer\LexicalAnalysis.cpp(7,70): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+     1>C:\2курс, 1 сем\КПО\20\Lexer_2\Lexer\Lexer\LexicalAnalysis.cpp(94,114): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+     1>C:\2курс, 1 сем\КПО\20\Lexer_2\Lexer\Lexer\LexicalAnalysis.cpp(118,115): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+     1>C:\2курс, 1 сем\КПО\20\Lexer_2\Lexer\Lexer\LexicalAnalysis.cpp(139,115): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+     1>C:\2курс, 1 сем\КПО\20\Lexer_2\Lexer\Lexer\LexicalAnalysis.cpp(151,88): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+     1>C:\2курс, 1 сем\КПО\20\Lexer_2\Lexer\Lexer\LexicalAnalysis.cpp(177,55): warning C4267: =: преобразование из "size_t" в "int"; возможна потеря данных
+     1>C:\2курс, 1 сем\КПО\20\Lexer_2\Lexer\Lexer\LexicalAnalysis.cpp(192,114): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+     1>C:\2курс, 1 сем\КПО\20\Lexer_2\Lexer\Lexer\LexicalAnalysis.cpp(215,114): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+     1>C:\2курс, 1 сем\КПО\20\Lexer_2\Lexer\Lexer\LexicalAnalysis.cpp(229,6): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+     1>C:\2курс, 1 сем\КПО\20\Lexer_2\Lexer\Lexer\LexicalAnalysis.cpp(240,8): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+     1>C:\2курс, 1 сем\КПО\20\Lexer_2\Lexer\Lexer\LexicalAnalysis.cpp(262,99): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+     1>C:\2курс, 1 сем\КПО\20\Lexer_2\Lexer\Lexer\LexicalAnalysis.cpp(275,45): warning C4267: =: преобразование из "size_t" в "int"; возможна потеря данных
+         Log.cpp
+         LT.cpp
+         Main.cpp
+         MFST.cpp
+     1>C:\2курс, 1 сем\КПО\20\Lexer_2\Lexer\Lexer\MFST.cpp(99,11): warning C4566: символ, представленный универсальным именем символа "\u00C0", невозможно представить в текущей кодовой странице (1251)
+         Out.cpp
+         Parm.cpp
+         Создание кода...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\bin\HostX86\x64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\2курс, 1 сем\КПО\20\Lexer_2\Lexer\x64\Debug\Lexer.exe" /INCREMENTAL /ILK:"x64\Debug\Lexer.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\2курс, 1 сем\КПО\20\Lexer_2\Lexer\x64\Debug\Lexer.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\2курс, 1 сем\КПО\20\Lexer_2\Lexer\x64\Debug\Lexer.lib" /MACHINE:X64 x64\Debug\Error.obj
+         x64\Debug\FST.obj
+         x64\Debug\GRB.obj
+         x64\Debug\In.obj
+         x64\Debug\IT.obj
+         x64\Debug\LexicalAnalysis.obj
+         x64\Debug\Log.obj
+         x64\Debug\LT.obj
+         x64\Debug\Main.obj
+         x64\Debug\MFST.obj
+         x64\Debug\Out.obj
+         x64\Debug\Parm.obj
+         Lexer.vcxproj -> C:\2курс, 1 сем\КПО\20\Lexer_2\Lexer\x64\Debug\Lexer.exe
+       FinalizeBuildStatus:
+         Файл "x64\Debug\Lexer.tlog\unsuccessfulbuild" удаляется.
+         Обращение к "x64\Debug\Lexer.tlog\Lexer.lastbuildstate".
+     1>Сборка проекта "C:\2курс, 1 сем\КПО\20\Lexer_2\Lexer\Lexer\Lexer.vcxproj" завершена (целевые объекты Build).
+
+Сборка успешно завершена.
+
+       "C:\2курс, 1 сем\КПО\20\Lexer_2\Lexer\Lexer\Lexer.vcxproj" (целевой объект Build ) (1) ->
+       (Целевой объект ClCompile) -> 
+         C:\2курс, 1 сем\КПО\20\Lexer_2\Lexer\Lexer\FST.cpp(74,37): warning C4267: инициализация: преобразование из "size_t" в "short"; возможна потеря данных
+         C:\2курс, 1 сем\КПО\20\Lexer_2\Lexer\Lexer\In.cpp(79,29): warning C4267: =: преобразование из "size_t" в "int"; возможна потеря данных
+         C:\2курс, 1 сем\КПО\20\Lexer_2\Lexer\Lexer\LexicalAnalysis.cpp(7,50): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+         C:\2курс, 1 сем\КПО\20\Lexer_2\Lexer\Lexer\LexicalAnalysis.cpp(7,70): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+         C:\2курс, 1 сем\КПО\20\Lexer_2\Lexer\Lexer\LexicalAnalysis.cpp(94,114): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+         C:\2курс, 1 сем\КПО\20\Lexer_2\Lexer\Lexer\LexicalAnalysis.cpp(118,115): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+         C:\2курс, 1 сем\КПО\20\Lexer_2\Lexer\Lexer\LexicalAnalysis.cpp(139,115): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+         C:\2курс, 1 сем\КПО\20\Lexer_2\Lexer\Lexer\LexicalAnalysis.cpp(151,88): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+         C:\2курс, 1 сем\КПО\20\Lexer_2\Lexer\Lexer\LexicalAnalysis.cpp(177,55): warning C4267: =: преобразование из "size_t" в "int"; возможна потеря данных
+         C:\2курс, 1 сем\КПО\20\Lexer_2\Lexer\Lexer\LexicalAnalysis.cpp(192,114): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+         C:\2курс, 1 сем\КПО\20\Lexer_2\Lexer\Lexer\LexicalAnalysis.cpp(215,114): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+         C:\2курс, 1 сем\КПО\20\Lexer_2\Lexer\Lexer\LexicalAnalysis.cpp(229,6): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+         C:\2курс, 1 сем\КПО\20\Lexer_2\Lexer\Lexer\LexicalAnalysis.cpp(240,8): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+         C:\2курс, 1 сем\КПО\20\Lexer_2\Lexer\Lexer\LexicalAnalysis.cpp(262,99): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+         C:\2курс, 1 сем\КПО\20\Lexer_2\Lexer\Lexer\LexicalAnalysis.cpp(275,45): warning C4267: =: преобразование из "size_t" в "int"; возможна потеря данных
+         C:\2курс, 1 сем\КПО\20\Lexer_2\Lexer\Lexer\MFST.cpp(99,11): warning C4566: символ, представленный универсальным именем символа "\u00C0", невозможно представить в текущей кодовой странице (1251)
+
+    Предупреждений: 16
+    Ошибок: 0
+
+Прошло времени 00:00:05.52

@@ -1,0 +1,64 @@
+string function concatStrings(string a, string b, string c)
+{
+	return a + b + c;
+}
+
+uint function getHash(uint numb)
+{
+	var uint randomCount;
+	var uint hash;
+	randomCount = casual numb;
+		
+	work(randomCount)
+	{
+				
+		hash = hash + casual numb;
+	};
+
+	var string res; 
+	res = concatStrings("turned out ", "next ", "hash: ");
+	print res;
+	BREAKL;
+
+	print hash;	
+	BREAKL;
+
+	return hash;
+}
+
+void function printSymbols(char symbol, uint shiftsNumb)
+{
+	work(shiftsNumb)
+	{
+		symbol = symbol [ 1;
+		
+		print symbol;
+		BREAKL;
+	};
+	
+	return;
+}
+
+main
+{	
+	var char symbol;
+	symbol = 'R';
+
+	printSymbols(symbol, 100);
+
+	var string first;
+	var string second;
+	var string third;
+
+	first = "first";
+	second = "second";
+	third = "third";
+
+	var string concatResalt;
+
+	concatResalt = concatStrings(first, second, third);
+	print concatResalt;
+
+	var uint randomNumb;
+	randomNumb = getHash(100);
+}

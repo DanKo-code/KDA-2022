@@ -1,0 +1,23 @@
+﻿Сборка начата 28.12.2022 16:19:09.
+Уровень детализации журнала: Normal.     1>Проект "C:\2курс, 1 сем\КПО\20\Lexer_2\Lexer\TestASM\TestASM.vcxproj" в узле 2 (целевые объекты Build).
+     1>InitializeBuildStatus:
+         Создание "Debug\TestASM.tlog\unsuccessfulbuild", так как было задано "AlwaysCreate".
+       _MASM:
+         Assembling TestAsm.asm...
+         cmd.exe /C "C:\Users\Lenovo\AppData\Local\Temp\tmp7cc16f0c6f054b2bbe770879fce648f2.cmd"
+         ml.exe /c /nologo /Zi /Fo"Debug\TestAsm.obj" /W3 /errorReport:prompt  /TaTestAsm.asm
+     1>TestAsm.asm(43): error A2022: instruction operands must be the same size
+     1>C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\BuildCustomizations\masm.targets(70,5): error MSB3721: выход из команды "ml.exe /c /nologo /Zi /Fo"Debug\TestAsm.obj" /W3 /errorReport:prompt  /TaTestAsm.asm" с кодом "1".
+     1>Сборка проекта "C:\2курс, 1 сем\КПО\20\Lexer_2\Lexer\TestASM\TestASM.vcxproj" завершена (целевые объекты Build) с ошибкой.
+
+Ошибка сборки.
+
+       "C:\2курс, 1 сем\КПО\20\Lexer_2\Lexer\TestASM\TestASM.vcxproj" (целевой объект Build ) (1) ->
+       (Целевой объект _MASM) -> 
+         TestAsm.asm(43): error A2022: instruction operands must be the same size
+         C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\BuildCustomizations\masm.targets(70,5): error MSB3721: выход из команды "ml.exe /c /nologo /Zi /Fo"Debug\TestAsm.obj" /W3 /errorReport:prompt  /TaTestAsm.asm" с кодом "1".
+
+    Предупреждений: 0
+    Ошибок: 2
+
+Прошло времени 00:00:00.29

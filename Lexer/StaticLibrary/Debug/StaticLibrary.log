@@ -1,0 +1,28 @@
+﻿Сборка начата 28.12.2022 23:36:40.
+Уровень детализации журнала: Normal.     1>Проект "C:\2курс, 1 сем\КПО\20\Lexer_2\Lexer\StaticLibrary\StaticLibrary.vcxproj" в узле 2 (целевые объекты Rebuild).
+     1>_PrepareForClean:
+         Файл "Debug\StaticLibrary.tlog\StaticLibrary.lastbuildstate" удаляется.
+       InitializeBuildStatus:
+         Создание "Debug\StaticLibrary.tlog\unsuccessfulbuild", так как было задано "AlwaysCreate".
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\bin\HostX86\x86\CL.exe /c /ZI /JMC /nologo /W3 /WX- /diagnostics:column /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /permissive- /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"C:\2курс, 1 сем\КПО\20\Lexer_2\Lexer\Debug\StaticLibrary.pdb" /external:W3 /Gd /TP /analyze- /FC /errorReport:prompt StaticLibrary.cpp
+         StaticLibrary.cpp
+     1>C:\2курс, 1 сем\КПО\20\Lexer_2\Lexer\StaticLibrary\StaticLibrary.cpp(9,13): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\bin\HostX86\x86\Lib.exe /OUT:"C:\2курс, 1 сем\КПО\20\Lexer_2\Lexer\Debug\StaticLibrary.lib" /NOLOGO /MACHINE:X86 Debug\StaticLibrary.obj
+         StaticLibrary.vcxproj -> C:\2курс, 1 сем\КПО\20\Lexer_2\Lexer\Debug\StaticLibrary.lib
+       FinalizeBuildStatus:
+         Файл "Debug\StaticLibrary.tlog\unsuccessfulbuild" удаляется.
+         Обращение к "Debug\StaticLibrary.tlog\StaticLibrary.lastbuildstate".
+     1>Сборка проекта "C:\2курс, 1 сем\КПО\20\Lexer_2\Lexer\StaticLibrary\StaticLibrary.vcxproj" завершена (целевые объекты Rebuild).
+
+Сборка успешно завершена.
+
+       "C:\2курс, 1 сем\КПО\20\Lexer_2\Lexer\StaticLibrary\StaticLibrary.vcxproj" (целевой объект Rebuild ) (1) ->
+       (Целевой объект ClCompile) -> 
+         C:\2курс, 1 сем\КПО\20\Lexer_2\Lexer\StaticLibrary\StaticLibrary.cpp(9,13): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+
+    Предупреждений: 1
+    Ошибок: 0
+
+Прошло времени 00:00:00.82

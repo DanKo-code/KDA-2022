@@ -1,0 +1,35 @@
+﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(517,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (Lexer.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  ASMTranslate.cpp
+D:\2к1с\Lexer_2\Lexer\Lexer\ASMTranslate.cpp(179,50): warning C4018: '<': signed/unsigned mismatch
+D:\2к1с\Lexer_2\Lexer\Lexer\ASMTranslate.cpp(486,24): warning C4018: '<': signed/unsigned mismatch
+D:\2к1с\Lexer_2\Lexer\Lexer\ASMTranslate.cpp(512,24): warning C4018: '<': signed/unsigned mismatch
+D:\2к1с\Lexer_2\Lexer\Lexer\ASMTranslate.cpp(580,24): warning C4018: '<': signed/unsigned mismatch
+D:\2к1с\Lexer_2\Lexer\Lexer\ASMTranslate.cpp(635,24): warning C4018: '<': signed/unsigned mismatch
+  debugFilePrint.cpp
+  Error.cpp
+  FST.cpp
+D:\2к1с\Lexer_2\Lexer\Lexer\FST.cpp(73,37): warning C4267: 'initializing': conversion from 'size_t' to 'short', possible loss of data
+  GRB.cpp
+  In.cpp
+  IT.cpp
+D:\2к1с\Lexer_2\Lexer\Lexer\IT.cpp(64,25): warning C4018: '<': signed/unsigned mismatch
+  LexicalAnalysis.cpp
+D:\2к1с\Lexer_2\Lexer\Lexer\LexicalAnalysis.cpp(101,25): warning C4018: '<': signed/unsigned mismatch
+  Log.cpp
+  LT.cpp
+D:\2к1с\Lexer_2\Lexer\Lexer\LT.cpp(43,25): warning C4018: '<': signed/unsigned mismatch
+  Main.cpp
+  MFST.cpp
+D:\2к1с\Lexer_2\Lexer\Lexer\MFST.cpp(101,11): warning C4566: character represented by universal-character-name '\u00C0' cannot be represented in the current code page (1251)
+  Out.cpp
+  Parm.cpp
+  PolishLT.cpp
+D:\2к1с\Lexer_2\Lexer\Lexer\PolishLT.cpp(8,24): warning C4018: '<': signed/unsigned mismatch
+  SemanticsAnalysis.cpp
+D:\2к1с\Lexer_2\Lexer\Lexer\SemanticsAnalysis.cpp(37,24): warning C4018: '<': signed/unsigned mismatch
+D:\2к1с\Lexer_2\Lexer\Lexer\SemanticsAnalysis.cpp(51,24): warning C4018: '<': signed/unsigned mismatch
+D:\2к1с\Lexer_2\Lexer\Lexer\SemanticsAnalysis.cpp(219,24): warning C4018: '<': signed/unsigned mismatch
+D:\2к1с\Lexer_2\Lexer\Lexer\SemanticsAnalysis.cpp(251,13): warning C4018: '>': signed/unsigned mismatch
+D:\2к1с\Lexer_2\Lexer\Lexer\SemanticsAnalysis.cpp(277,24): warning C4018: '<': signed/unsigned mismatch
+  Generating Code...
+  Lexer.vcxproj -> D:\2к1с\Lexer_2\Lexer\Debug\KDA-2022.exe
